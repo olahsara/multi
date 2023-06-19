@@ -4,4 +4,8 @@ A beadandó program html5, css, javascript és jQuery alap library használatáv
 ### Megvalósítandó: 
 - Legalább 3 különböző pálya (kiindulási helyzet), 
 - kirakásra fordított idő mérése, 
-- lépések számának mérése.
+- lépések számának mérése,
+- háttérzene,
+- eseményhang,
+- animáció,
+- toplista névbeírási lehetőséggel, pontszámmal (LocalStorage).
