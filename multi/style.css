@@ -1,0 +1,201 @@
+
+p {
+    margin-bottom: 0;
+    display: block;
+    horiz-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+#game_area {
+    position: absolute;
+    top: 50%;
+    height: 500px;
+    margin-top: -250px;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #808080;
+}
+#kozrefog{
+    position: absolute;
+    top: 50%;
+    height: 500px;
+    margin-top: -250px;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #808080;
+    font-size: 16pt;
+    color: lightgrey;
+}
+
+#ranglist{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top:50%;
+    margin-top: -250px;
+    margin-left: -200px;
+}
+#ranglist p {
+    font-size: 20pt;
+}
+
+#nav_right{
+    position: absolute;
+    top:50%;
+    height: 380px;
+    width: 250px;
+    margin-top: -130px;
+    left: 50%;
+    margin-left: 340px;
+    /*background: lightgrey;*/
+}
+#catpic{
+    height: 300px;
+    width:250px;
+    margin:0;
+}
+#winpic{
+    height: 0;
+    margin:0;
+}
+.win{
+    position: absolute;
+    height: 120px;
+    width: 250px;
+    left: 50%;
+    top:50%;
+    margin-top: -250px;
+}
+
+.list{
+    background: lightgrey;
+    height: 80px;
+    margin: 0;
+}
+.list div {
+    border: none;
+    margin-top: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    margin-left: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+.list div:hover {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.65);
+}
+
+#nav_left{
+    position: absolute;
+    width: 250px;
+    margin-left: 200px;
+    height: 500px;
+    top: 50%;
+    margin-top: -250px;
+    background: lightgrey;
+}
+.board_number {
+    /*background: green;*/
+    height: 80px;
+}
+.board_number div {
+    border: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: gray;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 15pt;
+    font-weight: bold;
+    text-align: center;}
+
+.board_number div:hover {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.65);
+}
+.random {
+    /*background: green;*/
+    height: 80px;
+}
+.random div{
+    border: none;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    margin-top: 10pt;
+    text-align: center;
+    font-weight: bold;
+}
+.random div:hover {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.65);
+}
+
+.ido{
+    /*background: green;*/
+    height: 80px;
+}
+.ido div{
+    margin-top: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    margin-left: 75px;
+    text-align: center;
+}
+.lepesek{
+    /*background: green;*/
+    height: 80px;
+}
+.lepesek div{
+    margin-top: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: gray;
+    margin-left: 75px;
+    text-align: center;
+}
+.off{
+    margin: 20px;
+    background: lightgrey;
+    position: absolute;
+    z-index: 0;
+    border: solid #666 1px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+.off:hover{
+    background: rgb(241, 158, 158);
+
+}
+.be{
+    margin: 20px;
+    background: rgb(241, 158, 158);
+    position: absolute;
+    z-index: 0;
+    border: solid #666 1px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+.be:hover{
+    background: lightgrey;
+
+}
+
+
+
+
+
+
+
